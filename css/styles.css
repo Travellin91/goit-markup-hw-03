@@ -20,6 +20,22 @@
   color: var(--background-color);
 }
 
+/*Container*/
+
+.container{
+width: 1158px;
+margin: 0 auto;
+padding: 0px 15px;
+
+}
+
+.header-container{
+display: flex;
+align-items: center;
+
+
+}
+
 /*Header*/
 
 .header-list {
@@ -66,6 +82,7 @@
   color: var(--title-color);
   font-family: "Roboto";
   text-decoration: none;
+  padding-left: 77px;
 }
 
 .header-link:hover,
@@ -312,6 +329,12 @@
 
 .menu-portfolio-list {
   list-style: none;
+}
+
+.section{
+  margin-top: 120px;
+  margin-bottom: 120px;
+
 }
 
 /*Footer*/
