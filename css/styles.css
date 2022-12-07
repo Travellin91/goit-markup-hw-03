@@ -38,8 +38,14 @@ align-items: center;
 
 /*Header*/
 
+.header{
+padding-top: 24px;
+padding-bottom: 24px;
+}
+
 .header-list {
   list-style: none;
+  
 }
 
 .btm {
