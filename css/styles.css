@@ -43,10 +43,16 @@ img{
 /*Container*/
 
 .container{
-width: 1158px;
-margin: 0 auto;
-padding: 0px 15px;
+width: 1128px;
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+}
 
+.header-container{
+  display: flex;
+  align-items: center;
 }
 
 .hero-container{
@@ -68,8 +74,13 @@ padding-bottom: 24px;
 
 .header-list {
   list-style: none;
+  display: flex;
 }
 
+.page-nav{
+  display: flex;
+  align-items: center;
+}
 
 .btm {
   font-family: "Roboto", sans-serif;
@@ -103,6 +114,7 @@ padding-bottom: 24px;
   letter-spacing: 0.03em;
   text-decoration: none;
   text-transform: uppercase;
+  margin-right: 77px;
 
 }
 
@@ -113,10 +125,9 @@ padding-bottom: 24px;
   color: var(--title-color);
   font-family: "Roboto";
   text-decoration: none;
-  
-  
+  margin-right: 40px;
+  }
 
-}
 
 .header-link:hover,
 .header-link:focus {
@@ -125,6 +136,8 @@ padding-bottom: 24px;
 
 .header-contacts {
   list-style: none;
+  display: flex;
+  margin-left: auto;
 }
 
 .header-contact {
@@ -134,8 +147,8 @@ padding-bottom: 24px;
   line-height: 1.2;
   color: var(--text-color);
   text-decoration: none;
-
-}
+  margin-right: 40px;
+  }
 
 .header-contact:hover,
 .header-contact:focus {
@@ -146,6 +159,7 @@ padding-bottom: 24px;
   text-align: center;
   background-color: var(--title-color);
   
+  
 }
 .hero-text-top {
   font-family: "Roboto";
@@ -155,7 +169,6 @@ padding-bottom: 24px;
   color: white;
   text-align: center;
   letter-spacing: 0.02em;
-  
 }
 
 /*Main*/
@@ -166,6 +179,8 @@ padding-bottom: 24px;
   font-size: 20px;
   line-height: 1.2;
   color: var(--title-color);
+  margin-bottom: 8px;
+  
 }
 
 .main-list {
@@ -175,11 +190,14 @@ padding-bottom: 24px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  width: 264px;
+  height: 72px;
 }
 
 .main-title {
   list-style: none;
   display: flex;
+  gap: 24px;
 
 }
 
@@ -194,11 +212,11 @@ padding-right: 156px;
 
 .doing-list-item {
   list-style: none;
-  
 }
 
 .doing-list{
   display: flex;
+  gap: 24px;
 }
 
 .doing-title {
@@ -210,12 +228,15 @@ padding-right: 156px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+  
 }
 
 /*Team*/
 
 .team {
   background-color: #f4f4fd;
+
 }
 
 .team-work {
@@ -227,6 +248,7 @@ padding-right: 156px;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 
 .team-name {
@@ -236,7 +258,10 @@ padding-right: 156px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  
+  text-align: center;
+  margin-top: 32px;
+  margin-right: 16px;
+  margin-left: 16px;  
 }
 
 .team-list {
@@ -246,15 +271,18 @@ padding-right: 156px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  
-}
+  text-align: center;
+  margin-top: 8px;
+  margin-right: 16px;
+  margin-bottom: 32px;
+  margin-left: 16px;
+ }
 
 .team-card {
   list-style: none;
   display: flex;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
-    
+  gap: 24px;
 }
 
 .team-background {
@@ -391,6 +419,7 @@ padding-right: 156px;
 
 .section{
   padding-top: 120px;
+  padding-bottom: 120px;
 
 }
 
