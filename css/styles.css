@@ -43,7 +43,7 @@ img {
 /*Container*/
 
 .container {
-  width: 1128px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -94,13 +94,7 @@ img {
   cursor: pointer;
   width: 170px;
   height: 51px;
-  left: 635px;
-  top: 432px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  margin-top: 16px;
-  margin-right: 32px;
-  margin-bottom: 16px;
-  margin-left: 32px;
 }
 
 .btm:hover,
@@ -127,6 +121,9 @@ img {
   color: var(--title-color);
   font-family: "Roboto";
   text-decoration: none;
+}
+
+.header-list-item{
   margin-right: 40px;
 }
 
@@ -148,7 +145,6 @@ img {
   line-height: 1.2;
   color: var(--text-color);
   text-decoration: none;
-  margin-right: 40px;
 }
 
 .header-contact:hover,
@@ -169,7 +165,6 @@ img {
   color: white;
   text-align: center;
   max-width: 492px;
-  padding-top: 192px;
   margin: 0 auto;
   margin-bottom: 48px;
 }
@@ -205,7 +200,6 @@ img {
 .main-section {
   padding-top: 120px;
   padding-left: 156px;
-  padding-bottom: 120px;
   padding-right: 156px;
 }
 
@@ -304,7 +298,6 @@ img {
   margin-top: 96px;
   margin-right: 0px;
   margin-bottom: 72px;
-  margin-left: 0px;
   justify-content: center;
 }
 
@@ -415,8 +408,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
-  margin-top: 32px;
-  margin-left: 16px;
 }
 
 .menu-text-list {
@@ -427,14 +418,22 @@ img {
   letter-spacing: 0.02em;
   color: var(--text-color);
   margin-top: 8px;
-  margin-left: 16px;
-  margin-bottom: 32px;
 }
 
 .portfolio-card {
   width: 360px;
-  border: 0.5px solid #f4f4fd;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-text{
+  padding-top: 32px;
+  padding-right: 16px;
+  padding-bottom: 32px;
+  padding-left: 16px;
+  border: 0.5px solid #f4f4fd;
+  border-top: none;
+
+
 }
 
 .menu-portfolio-list {
@@ -442,21 +441,6 @@ img {
   display: flex;
   gap: 24px;
   margin-bottom: 48px;
-}
-
-.menu-portfolio-list-2 {
-  list-style: none;
-  display: flex;
-  gap: 24px;
-  margin-bottom: 48px;
-  margin-right: 24px;
-}
-
-.menu-portfolio-list-3 {
-  list-style: none;
-  display: flex;
-  gap: 24px;
-  margin-bottom: 120px;
 }
 
 .section {
@@ -487,7 +471,6 @@ img {
   letter-spacing: 0.02em;
   color: #e7e9fc;
   width: 264px;
-  height: 110px;
   left: 156px;
   top: 2383px;
   margin-top: 16px;
@@ -497,6 +480,5 @@ img {
   padding-top: 100px;
   padding-right: 0 auto;
   padding-bottom: 100px;
-  padding-left: 156px;
   background-color: var(--title-color);
 }

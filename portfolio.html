@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -12,10 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
+    
   </head>
   <body>
     <header class="portfolio-header">
@@ -25,23 +26,21 @@
         >
         <nav class="page-nav">
           <ul class="header-list">
-            <li><a class="header-link" href="./index.html">Studio</a></li>
-            <li>
+            <li class="header-list-item"><a class="header-link" href="./index.html">Studio</a></li>
+            <li class="header-list-item">
               <a class="header-link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li><a class="header-link" href="#">Contacts</a></li>
+            <li class="header-list-item"><a class="header-link" href="#">Contacts</a></li>
           </ul>
         </nav>
         <ul class="header-contacts">
-          <li>
+          <li class="header-list-item">
             <a class="header-contact" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
+              >info@devstudio.com</a>
           </li>
-          <li>
+          <li class="header-list-item">
             <a class="header-contact" href="tel:+11(000)111-11-11"
-              >+11 (000) 111-11-11</a
-            >
+              >+11 (000) 111-11-11</a>
           </li>
         </ul>
       </div>
@@ -67,9 +66,9 @@
                 height="300"
                 src="images/banking_app.jpg"
                 alt="banking_app"
-              />
+              /><div class="portfolio-text">
               <h3 class="menu-list">Banking App Interface Concept</h3>
-              <p class="menu-text-list">App</p>
+              <p class="menu-text-list">App</p></div>
             </li>
             <li class="portfolio-card">
               <img
@@ -77,9 +76,9 @@
                 height="300"
                 src="images/cashless.jpg"
                 alt="cashless"
-              />
+              /><div class="portfolio-text">
               <h3 class="menu-list">Cashless Payment</h3>
-              <p class="menu-text-list">Marketing</p>
+              <p class="menu-text-list">Marketing</p></div>
             </li>
             <li class="portfolio-card">
               <img
@@ -87,16 +86,18 @@
                 height="300"
                 src="images/meditation.jpg"
                 alt="meditation"
-              />
+              /><div class="portfolio-text">
               <h3 class="menu-list">Meditaion App</h3>
               <p class="menu-text-list">App</p>
+              </div>
             </li>
           </ul>
-          <ul class="menu-portfolio-list-2">
+          <ul class="menu-portfolio-list">
             <li class="portfolio-card">
               <img width="360" height="300" src="images/taxi.jpg" alt="taxi" />
+              <div class="portfolio-text">
               <h3 class="menu-list">Taxi Service</h3>
-              <p class="menu-text-list">Marketing</p>
+              <p class="menu-text-list">Marketing</p></div>
             </li>
             <li class="portfolio-card">
               <img
@@ -104,9 +105,9 @@
                 height="300"
                 src="images/screen.jpg"
                 alt="screen"
-              />
+              /><div class="portfolio-text">
               <h3 class="menu-list">Screen Illustrations</h3>
-              <p class="menu-text-list">Design</p>
+              <p class="menu-text-list">Design</p></div>
             </li>
             <li class="portfolio-card">
               <img
@@ -114,21 +115,21 @@
                 height="300"
                 src="images/online.jpg"
                 alt="online"
-              />
+              /><div class="portfolio-text">
               <h3 class="menu-list">Online Courses</h3>
-              <p class="menu-text-list">Marketing</p>
+              <p class="menu-text-list">Marketing</p></div>
             </li>
           </ul>
-          <ul class="menu-portfolio-list-3">
+          <ul class="menu-portfolio-list">
             <li class="portfolio-card">
               <img
                 width="360"
                 height="300"
                 src="images/instagram.jpg"
                 alt="instagram"
-              />
+              /><div class="portfolio-text">
               <h3 class="menu-list">Instagram Stories Concept</h3>
-              <p class="menu-text-list">Design</p>
+              <p class="menu-text-list">Design</p></div>
             </li>
             <li class="portfolio-card">
               <img
@@ -136,9 +137,10 @@
                 height="300"
                 src="images/organic.jpg"
                 alt="organic"
-              />
+              /><div class="portfolio-text">
               <h3 class="menu-list">Organic Food</h3>
               <p class="menu-text-list">Web Site</p>
+            </div>
             </li>
             <li class="portfolio-card">
               <img
@@ -146,9 +148,10 @@
                 height="300"
                 src="images/coffe.jpg"
                 alt="coffee"
-              />
+              /><div class="portfolio-text">
               <h3 class="menu-list">Fresh Coffee</h3>
               <p class="menu-text-list">Web Site</p>
+            </div>
             </li>
           </ul>
         </div>
