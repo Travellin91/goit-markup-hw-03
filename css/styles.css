@@ -123,7 +123,7 @@ img {
   text-decoration: none;
 }
 
-.header-list-item{
+.header-list-item {
   margin-right: 40px;
 }
 
@@ -425,15 +425,13 @@ img {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio-text{
+.portfolio-text {
   padding-top: 32px;
   padding-right: 16px;
   padding-bottom: 32px;
   padding-left: 16px;
   border: 0.5px solid #f4f4fd;
   border-top: none;
-
-
 }
 
 .menu-portfolio-list {
