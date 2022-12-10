@@ -34,7 +34,7 @@ img {
 }
 
 .body {
-  font-family: "Roboto", "Raleway" sans-serif;
+  font-family: "Roboto",sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--background-color);
@@ -119,7 +119,7 @@ img {
   font-size: 16px;
   line-height: 1.2;
   color: var(--title-color);
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   text-decoration: none;
 }
 
@@ -139,7 +139,7 @@ img {
 }
 
 .header-contact {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
@@ -158,7 +158,7 @@ img {
 }
 
 .hero-text-top {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   font-size: 56px;
   line-height: 1;
@@ -172,7 +172,7 @@ img {
 /*Main*/
 
 .main-title-list {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -181,7 +181,7 @@ img {
 }
 
 .main-list {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -199,8 +199,6 @@ img {
 
 .main-section {
   padding-top: 120px;
-  padding-left: 156px;
-  padding-right: 156px;
 }
 
 /*Doing*/
@@ -215,7 +213,7 @@ img {
 }
 
 .doing-title {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   font-size: 36px;
   line-height: 1.1;
@@ -233,7 +231,7 @@ img {
 }
 
 .team-work {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   font-size: 36px;
   line-height: 1.1;
@@ -245,9 +243,8 @@ img {
 }
 
 .team-name {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
-  font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--title-color);
@@ -258,10 +255,8 @@ img {
 }
 
 .team-list {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-family: "Roboto",sans-serif;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
   text-align: center;
@@ -302,7 +297,7 @@ img {
 }
 
 .btm-all {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -321,7 +316,7 @@ img {
 }
 
 .btm-web-site {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -341,7 +336,7 @@ img {
 }
 
 .btm-app {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -361,7 +356,7 @@ img {
 }
 
 .btm-design {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -381,7 +376,7 @@ img {
 }
 
 .btm-marketing {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   font-size: 16px;
   line-height: 1.5;
@@ -402,7 +397,7 @@ img {
 
 /*Menu*/
 .menu-list {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -411,7 +406,7 @@ img {
 }
 
 .menu-text-list {
-  font-family: "Roboto";
+  font-family: "Roboto",sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -462,9 +457,7 @@ img {
 }
 
 .footer-title {
-  font-family: "Roboto";
-  font-weight: 400;
-  font-size: 16px;
+  font-family: "Roboto",sans-serif;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
