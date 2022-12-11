@@ -152,6 +152,8 @@ img {
   color: var(--primary-band);
 }
 
+/*HERO*/
+
 .hero-section {
   text-align: center;
   background-color: var(--title-color);
@@ -278,6 +280,8 @@ img {
 .team-background {
   background-color: #ffffff;
 }
+
+/*PORTFOLIO*/
 
 /*Portfolio-Header*/
 .portfolio-header {
