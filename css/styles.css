@@ -293,7 +293,6 @@ img {
   list-style: none;
   display: flex;
   gap: 24px;
-  padding-top: 96px;
   margin-bottom: 72px;
   justify-content: center;
 }
@@ -376,7 +375,6 @@ img {
 }
 
 .portfolio-card {
-  margin-bottom: 48px;
   width: 360px;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -391,14 +389,16 @@ img {
 }
 
 .menu-portfolio-list {
-  gap: 24px;
   list-style: none;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
 .portfolio-menu-section {
+  padding-top: 96px;
   padding-bottom: 120px;
 }
 .section {
